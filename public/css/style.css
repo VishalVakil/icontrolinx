@@ -616,6 +616,9 @@ label {
   .intro p {
     font-size: 10px;
   }
+  .intro {
+    background-size: auto;
+  }
 }
 
 @media (max-width: 400px) {
@@ -635,4 +638,7 @@ label {
   .intro p {
     font-size: 10px;
   }  
+  .intro {
+    background-size: auto;
+  }
 }
