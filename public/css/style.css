@@ -606,10 +606,9 @@ label {
   #team .container {
     display: grid;
   }
-  html, body {
+  html {
     width: 100%;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    scroll-behavior: smooth;
   }
   .intro h1 {
     font-size: 40px;
@@ -629,10 +628,9 @@ label {
   #team .container {
     display: grid;
   }
-  html, body {
+  html {
     width: 100%;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    scroll-behavior: smooth;
   }
   .intro h1 {
     font-size: 40px;
