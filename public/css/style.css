@@ -642,3 +642,25 @@ label {
     background-size: auto;
   }
 }
+
+@media (max-width: 300px) {
+  #about img {
+    margin: 50px 0;
+  }
+  #team .container {
+    display: grid;
+  }
+  html {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
+  .intro p {
+    font-size: 10px;
+  }  
+  .intro {
+    background-size: auto;
+  }
+}
