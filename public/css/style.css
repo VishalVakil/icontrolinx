@@ -606,6 +606,11 @@ label {
   #team .container {
     display: grid;
   }
+  html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
 }
 
 @media (max-width: 400px) {
@@ -615,4 +620,8 @@ label {
   #team .container {
     display: grid;
   }
+  html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }  
 }
